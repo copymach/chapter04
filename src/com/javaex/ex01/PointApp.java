@@ -10,7 +10,9 @@ public class PointApp {
 //		System.out.println(p02.toString());
 		
 //	클래스명 변수명	= new 생성자
-	PointList pList = new PointList();	
+	PointList pList;	
+	pList = new PointList();	
+	
 	
 	pList.add(p01);
 	pList.add(p02);
